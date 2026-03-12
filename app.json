@@ -1,10 +1,20 @@
 {
   "expo": {
     "name": "G350-Elite",
-    "slug": "g350-elite",
+    "slug": "fitness",
     "version": "1.0.0",
+    "scheme": "g350-elite",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
-      "package": "com.d3athk1d.g350elite"
+      "package": "com.d3athk1d.g350elite",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
     },
     "extra": {
       "eas": {
