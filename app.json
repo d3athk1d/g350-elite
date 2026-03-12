@@ -4,14 +4,22 @@
     "slug": "g350-elite",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "https://raw.githubusercontent.com/expo/expo/main/templates/expo-template-blank/assets/icon.png",
-    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
-      "package": "com.d3athk1d.g350elite",
       "adaptiveIcon": {
-        "foregroundImage": "https://raw.githubusercontent.com/expo/expo/main/templates/expo-template-blank/assets/icon.png",
-        "backgroundColor": "#000000"
-      }
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.d3athk1d.g350elite"
     }
   }
 }
