@@ -3,7 +3,6 @@
     "name": "G350-Elite",
     "slug": "g350-elite",
     "version": "1.0.0",
-    "orientation": "portrait",
     "android": {
       "package": "com.d3athk1d.g350elite"
     },
